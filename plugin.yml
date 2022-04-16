@@ -1,0 +1,22 @@
+name: MCBingo
+description: Bingo!
+author: gracings
+version: 1.0
+main: me.grace.MCBingo.Main
+api-version: 1.16
+commands:
+  bingo:
+    description: The main command for Bingo.
+  bingo start:
+    description: Starts a new bingo game
+    usage: |
+      /bingo start
+  bingo stop:
+    description: Stops the current bingo game
+    usage: /bingo stop
+  bingo gui:
+    description: Accesses your bingo GUI
+    usage: /bingo gui
+  bingo card:
+    description: Gives your bingo card
+    usage: /bingo card
